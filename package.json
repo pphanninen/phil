@@ -1,0 +1,42 @@
+{
+  "name": "ui-library",
+  "version": "1.0.0",
+  "description": "Small React components that tend to be used from project to project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pphanninen/component-library.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Petri Hänninen",
+    "email": "hello@petrihanninen.com",
+    "url": "http://petrihanninen.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pphanninen/component-library/issues"
+  },
+  "homepage": "https://github.com/pphanninen/component-library#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1"
+  },
+  "dependencies": {
+    "babel-loader": "^7.1.5",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-hot-loader": "^4.3.5",
+    "react-router-dom": "^4.4.0-alpha.1",
+    "styled-components": "^3.4.5",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.6"
+  }
+}
